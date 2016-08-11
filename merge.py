@@ -1,4 +1,4 @@
-def merge_dicts(dicts): #input: List of Dicts, optional list of keys
+def merge_dicts(dicts): #input: List of Dicts
 	countries = []
 	for dic in dicts: #Get all keys 
 		countries = countries + list(dic.keys())
